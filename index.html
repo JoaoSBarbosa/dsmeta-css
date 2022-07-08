@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSMeta</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <div class="dsmeta-logo-container">
+      <img src="./img/logo.svg" alt="DSMeta">
+      <h1>DSMeta</h1>
+      <p>
+        Desenvolvido por:
+        <a href="https://www.linkedin.com/in/joao-da-silva-barbosa/" target="_blank">@João Barbosa</a>
+      </p>
+    </div>
+  </header>
+  <!--Fim do cabeçalho-->
+
+  <!--Relatorio (seção principal da página)-->
+  <main>
+    <!--Seção para do conteúdo-->
+    <section id="sales">
+      <!--divisória para controlar a largura máxima do conteúdo-->
+      <div class="dsmeta-container">
+        <!--divisoria onde ficará o retângulo-->
+        <div class="dsmeta-card">
+          <h2 class="dsmeta-sales-title">Vendas</h2>
+
+          <!--divisória PAI para delimitar a área das caixas-->
+          <div>
+            <!--divisória filha da primeira caixa da data-->
+            <div class="dsmeta-form-control-container">
+              <input class="dsmeta-form-control" type="text">
+            </div>
+            <!--divisória filha da segunda caixa da data-->
+            <div class="dsmeta-form-control-container">
+              <input class="dsmeta-form-control" type="text">
+            </div>
+          </div>
+          <!-- Fim da divisória PAI para delimitar a área das caixas-->
+
+          <!--divisoria da tabela-->
+          <div>
+            <table class="dsmeta-sale-table">
+              <!--TAG para tabela-->
+              <!--Titulo da tabela-->
+              <thead>
+                <!--TAG para titulos de tabela-->
+                <tr>
+                  <!--TAG para linhas de tabela-->
+                  <!--o texto vai aparecer como titulo em linha porque está dentro de tr(linha) e thead (titulo) que está dentro de uma tabela-->
+                  <th class="show992">ID</th>
+                  <th class="show576">Data</th>
+                  <th>Vendedor</th>
+                  <th class="show992">Visitas</th>
+                  <th class="show992">Vendas</th>
+                  <th>Total</th>
+                  <th>Notificar</th>
+                </tr>
+              </thead>
+              <!--Corpo da tabela-->
+              <tbody>
+                <tr>
+                  <td class="show992">#341</td>
+                  <td class="show576">08/07/2022</td>
+                  <td>Anakin</td>
+                  <td class="show992">15</td>
+                  <td class="show992">11</td>
+                  <td>R$ 55300,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="./img/Vector.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="show992">#341</td>
+                  <td class="show576">09/07/2022</td>
+                  <td>Anakin</td>
+                  <td class="show992">15</td>
+                  <td class="show992">11</td>
+                  <td>R$ 55300,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="./img/Vector.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="show992">#341</td>
+                  <td class="show576">10/07/2022</td>
+                  <td>Anakin</td>
+                  <td class="show992">15</td>
+                  <td class="show992">11</td>
+                  <td>R$ 55300,00</td>
+                  <td>
+                    <div class="dsmeta-red-btn-container">
+                      <div class="dsmeta-red-btn">
+                        <img src="./img/Vector.svg" alt="Notificar">
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+</body>
+
+</html>
